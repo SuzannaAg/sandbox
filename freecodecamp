@@ -69,3 +69,33 @@ const quotient = 4.4 / 2.0; // Change this line
 
 const remainder = 11%3;
 
+a += 12;
+b += 9;
+c += 7;
+
+a -= 6;
+b -= 15;
+c -= 1;
+
+a *= 5;
+b *= b;
+c *= 10;
+
+a *= 5;
+b *= 3;
+c *= 10;
+
+a /= 12;
+b /= 4;
+c /= 11;
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
+
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>/';
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+const myStr = "This is the start. " + "This is the end."; // Change this line
+
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence."
