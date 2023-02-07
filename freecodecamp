@@ -748,3 +748,87 @@ const playerNumber = 16;  // Change this line
 const player = testObj[playerNumber];   // Change this line
 
 
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  let rezz = obj.hasOwnProperty(checkProp);
+  switch (rezz) {
+    case true:
+    return obj[checkProp];
+    break;
+    case false:
+    return "Not Found";
+    break;
+  }
+
+  // Only change code above this line
+}
+
+
+const myMusic = [
+  ,
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+myMusic.newOne = [
+  {
+ "artist": "Mabel Matiz",
+  "title": "Antidepresan",
+  "release_year": 2023,
+  "formats" : [
+    "CD",
+    "Casette",
+    "LP"
+  ],
+}
+];
+
+
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
+
+
+
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+const secondTree = myPlants[1].list[1];
+
+
+
+
